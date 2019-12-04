@@ -779,7 +779,7 @@ the software.
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
-                <version>1.6.2</version>
+                <version>1.7.29</version>
                 <scope>compile</scope>
             </dependency>
             <dependency>
