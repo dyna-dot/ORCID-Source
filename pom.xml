@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-============================================================================= 
+<!--
+=============================================================================
 
 ORCID (R) Open Source
 http://orcid.org
@@ -10,7 +10,7 @@ Licensed under an MIT-Style License (MIT)
 http://orcid.org/open-source-license
 
 This copyright and license information (including a link to the full license)
-shall be included in its entirety in all copies or substantial portion of 
+shall be included in its entirety in all copies or substantial portion of
 the software.
 =============================================================================
 -->
@@ -132,7 +132,7 @@ the software.
                     <argLine>-Duser.timezone=GMT</argLine>
                     <runOrder>alphabetical</runOrder>
                     <!-- we need to rewrite our unit test
-                    to be runOrder random and take avantage 
+                    to be runOrder random and take avantage
                     of the speedup below
                     <parallel>classes</parallel>
                     <threadCount>4</threadCount>
@@ -325,7 +325,7 @@ the software.
             <!-- jsoup HTML parser library @ http://jsoup.org/ -->
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
-            <version>1.9.2</version>
+            <version>1.12.1</version>
         </dependency>
         <dependency>
             <groupId>commons-logging</groupId>
@@ -375,7 +375,7 @@ the software.
             <groupId>io.takari.junit</groupId>
             <artifactId>takari-cpsuite</artifactId>
             <scope>test</scope>
-        </dependency>        
+        </dependency>
         <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
@@ -932,7 +932,7 @@ the software.
                 <artifactId>mockito-core</artifactId>
                 <version>2.7.5</version>
                 <scope>test</scope>
-                <exclusions> 
+                <exclusions>
                     <exclusion>
                         <groupId>org.hamcrest</groupId>
                         <artifactId>hamcrest-core</artifactId>
